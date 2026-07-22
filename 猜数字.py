@@ -20,7 +20,7 @@ while chances:
 
     # 检测:如果等于该数,则输出答对文本并结束
     if guess == answer:
-        print(f"您在{attempts}次时答对了,该数为{answer}\n")
+        print(f"您在第{attempts}次时答对了,该数为{answer}\n")
         break
 
     # 如果大于该数,则输出大于文本并减少一个机会次数
