@@ -9,11 +9,11 @@ attempts = 0
 while chances:
     try:
         # 输入一个数字
-        guess = int(input("请输入一个整数:"))
+        guess = int(input("请输入一个整数(0-100):"))
 
     # 排除整数外的输入,不减少次数
     except ValueError:
-        print("错误:请输入一个整数!\n")
+        print("错误:请输入一个整数(0-100)!\n")
         continue
 
     attempts += 1
